@@ -1,0 +1,19 @@
+* {
+  text-align: center;
+  color: #000;
+  background-color: powderblue;
+}
+
+hr {
+  border: none;
+  border-top: 15px dotted orchid;
+  width: 142px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px grey;
+}
+
