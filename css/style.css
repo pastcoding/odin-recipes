@@ -1,19 +1,41 @@
 * {
-  text-align: center;
   color: #000;
   background-color: powderblue;
+}
+
+.center {
+  width: 33%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+li::marker {
+  font-weight: bold;
+}
+
+li {
+  padding: 10px;
 }
 
 hr {
   border: none;
   border-top: 15px dotted orchid;
   width: 142px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 img {
+  display: block;
   width: 400px;
   height: auto;
+  margin: auto;
   border-radius: 15px;
   box-shadow: 10px 10px 5px grey;
 }
-
